@@ -64,6 +64,7 @@ export default function Login({navigation}) {
         }
       } catch (error) {
         console.log(error);
+        Alert.alert('Error', 'Tidak terhubung ke API');
       } finally {
         dispatch(setLoading(false));
       }
