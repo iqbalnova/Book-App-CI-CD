@@ -1,4 +1,4 @@
-package com.bookapp.newarchitecture;
+package com.bookapp.iqbal.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.bookapp.BuildConfig;
-import com.bookapp.newarchitecture.components.MainComponentsRegistry;
-import com.bookapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.bookapp.iqbal.BuildConfig;
+import com.bookapp.iqbal.newarchitecture.components.MainComponentsRegistry;
+import com.bookapp.iqbal.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
