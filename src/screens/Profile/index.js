@@ -1,6 +1,5 @@
 import {View, Text, Image, TouchableOpacity} from 'react-native';
 import React, {useState} from 'react';
-import {avatar} from '../../assets/img';
 import {ms} from 'react-native-size-matters';
 import Poppins from '../../components/Poppins';
 import {useDispatch, useSelector} from 'react-redux';
