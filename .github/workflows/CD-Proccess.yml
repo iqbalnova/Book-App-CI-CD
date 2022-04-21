@@ -22,7 +22,7 @@ jobs:
       - name: generate apk
         run: |
           cd android
-          ./gradlew bundleRelease
+          ./gradlew assembleRelease bundleRelease
           cd ..
       - name: Upload App to Google Play
         uses: r0adkll/upload-google-play@v1
@@ -33,3 +33,6 @@ jobs:
           track: alpha
           status: completed
           inAppUpdatePriority: 2
+
+      - name: send to telegram
+        run:
